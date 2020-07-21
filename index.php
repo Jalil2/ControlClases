@@ -1,5 +1,5 @@
 <?php 
-require_once('model/connection.php');
+require_once('model/connection.php'); //Realiza la conexión a la base de datos
 
 
 	if (isset($_GET['controller'])&&isset($_GET['action'])) {
